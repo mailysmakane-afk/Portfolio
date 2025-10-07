@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brand — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo hover-lift" href="index.html" aria-label="Brand home">
+        <svg width="28" height="28" viewBox="0 0 24 24" role="img" aria-hidden="true">
+          <path d="M12 2l9 5v10l-9 5-9-5V7l9-5z" class="fill-accent"/>
+          <path d="M12 7l6 3.333v6.334L12 20l-6-3.333V10.333L12 7z" class="fill-accent-2"/>
+        </svg>
+        <span>Brand</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a class="nav-link hover-underline" href="index.html">Home</a>
+        <a class="nav-link hover-underline" href="#features">Features</a>
+        <a class="nav-link hover-underline" href="#work">Work</a>
+        <a class="nav-link hover-underline" href="#testimonials">Testimonials</a>
+        <a class="btn btn-primary hover-lift" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1 class="headline">
+          We craft delightful <span class="grad">web experiences</span>.
+        </h1>
+        <p class="subhead">A modern, fast, accessible site template with smooth hover animations.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary hover-lift" href="#features">Explore Features</a>
+          <a class="btn btn-ghost hover-lift" href="contact.html">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <!-- Replace the src with your video frame / hero image -->
+        <div class="card hero-card hover-tilt">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop" alt="Showcase" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="section-title">Features</h2>
+      <div class="grid grid-3">
+        <div class="card feature hover-lift">
+          <div class="icon-circle">
+            <span>⚡</span>
+          </div>
+          <h3>Performance</h3>
+          <p>Lightweight CSS and zero dependencies on heavy frameworks.</p>
+          <a class="link-arrow" href="#!">Learn more</a>
+        </div>
+        <div class="card feature hover-lift">
+          <div class="icon-circle">
+            <span>🛡️</span>
+          </div>
+          <h3>Accessible</h3>
+          <p>Semantic HTML, focus states, ARIA labels, and keyboard nav.</p>
+          <a class="link-arrow" href="#!">Learn more</a>
+        </div>
+        <div class="card feature hover-lift">
+          <div class="icon-circle">
+            <span>🎨</span>
+          </div>
+          <h3>Animated</h3>
+          <p>Subtle hover effects: underline sweep, card lift, and tilt.</p>
+          <a class="link-arrow" href="#!">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work / Gallery -->
+  <section id="work" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Selected Work</h2>
+      <div class="grid grid-3">
+        <a class="card img-card hover-zoom" href="#!">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="Project 1">
+          <div class="img-overlay"><span>View project</span></div>
+        </a>
+        <a class="card img-card hover-zoom" href="#!">
+          <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop" alt="Project 2">
+          <div class="img-overlay"><span>View project</span></div>
+        </a>
+        <a class="card img-card hover-zoom" href="#!">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" alt="Project 3">
+          <div class="img-overlay"><span>View project</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <h2 class="section-title">What clients say</h2>
+      <div class="grid grid-3">
+        <div class="card testimonial hover-lift">
+          <p>“Lightning fast and beautifully animated. Exactly what we needed.”</p>
+          <div class="byline">— Alex P.</div>
+        </div>
+        <div class="card testimonial hover-lift">
+          <p>“Clean code, great accessibility, and modern UX. Five stars.”</p>
+          <div class="byline">— Morgan L.</div>
+        </div>
+        <div class="card testimonial hover-lift">
+          <p>“The subtle hover effects feel premium without being distracting.”</p>
+          <div class="byline">— Priya K.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container cta-inner">
+      <h3>Ready to start a project?</h3>
+      <a class="btn btn-primary hover-lift" href="contact.html">Contact us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo small">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2l9 5v10l-9 5-9-5V7l9-5z" class="fill-accent"/>
+          </svg>
+          <span>Brand</span>
+        </div>
+        <p class="muted">© <span id="y"></span> Brand. All rights reserved.</p>
+      </div>
+      <nav class="footer-links">
+        <a class="hover-underline" href="#features">Features</a>
+        <a class="hover-underline" href="#work">Work</a>
+        <a class="hover-underline" href="contact.html">Contact</a>
+      </nav>
+      <div class="socials">
+        <a class="icon-link hover-lift" href="#" aria-label="Twitter">𝕏</a>
+        <a class="icon-link hover-lift" href="#" aria-label="LinkedIn">in</a>
+        <a class="icon-link hover-lift" href="#" aria-label="Dribbble">●</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
